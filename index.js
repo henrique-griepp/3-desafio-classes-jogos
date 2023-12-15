@@ -10,12 +10,12 @@ class hero{
     }
 }
 
-let guerreiro = new hero ("John Snow", "24", "guerreiro", "espada")
-let mago = new hero ("Gandalf", "2000", "mago", "magia")
-let monge = new hero ("Miyagi", "59", "monge", "artes marciais")
+let warrior = new hero ("John Snow", "24", "guerreiro", "espada")
+let wizard = new hero ("Gandalf", "2000", "mago", "magia")
+let monk = new hero ("Miyagi", "59", "monge", "artes marciais")
 let ninja = new hero ("NoKakashi Hatake", "26", "ninja", "shuriken")
 
-guerreiro.atackNow()
-mago.atackNow()
-monge.atackNow()
+warrior.atackNow()
+wizard.atackNow()
+monk.atackNow()
 ninja.atackNow()
